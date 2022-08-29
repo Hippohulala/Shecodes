@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hej!i am dolly</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(241, 232, 233);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: lighter;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    p {
+      line-height: 1.5;
+      font-size: 16px;
+      margin: 20px 0 10px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+    button {
+      display: block;
+      font-weight: bold;
+      margin: 20px auto;
+      background: rgb(240, 167, 176);
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      transition: all 200ms ease-in-out;
+    }
+
+    button:hover {
+      opacity: 0.9;
+      cursor: pointer;
+      color: floralwhite;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 15px 60px;
+    }
+
+    .footer {
+      text-align: right;
+      font-size: smaller;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Hej! I am Dolly 🤗</h1>
+      <h2>
+        B2B SaaS Sales and Marketing / YouTuber / Airbnb Superhost / Pole Dancer
+      </h2>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Dolly_face_closeup.jpg"
+        width="600px"
+        alt="Dolly Clone sheep"
+      />
+      <p>
+        Hej! Thanks for visiting Dolly's page. I am Dolly from China and now I
+        live in Malmo, Sweden. In the past 5 years, I work with both sales and
+        marketing for a B2B SaaS company, including cold emails/calls, email
+        marketing, social media marketing, content marketing, paid media
+        marketing, ABM, SEO etc. I am familiar with SEMrush, Google analytics,
+        Google ads, Microsoft ads, Salesforce, Mailchimp, Active Campaign, Drift
+        etc. If you need any help for sales or marketing, just send me an email
+        <a href="mailto:dollydai0224@gmail.com">dollydai0224@gmail.com</a> 📧.
+        <br />
+        <br />In my spare time, I am a part-time YouTuber, sharing my stories on
+        <a href="https://www.youtube.com/c/JingDaiDolly" , target="_blank"
+          >"Hej! I am Dolly"</a
+        >. If you want to make videos together, feel free to drop me a line. By
+        the way, if you see my lovely studio on Airbnb, don't hesitate and just
+        book one night here. I am a superhost and I will share lots of
+        interesting things in our chitchat.
+        <br />
+        <br />
+        <a href="https://www.linkedin.com/in/daijing0224/">
+          Learn more about Dolly</a
+        >
+      </p>
+      <br />
+      <button class="contactDolly">Contact Dolly</button>
+      <p class="footer">This website is made by Dolly 🙋‍♀️</p>
+    </div>
+
+    <script>
+      function Contact() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+
+        alert("Thank you, " + name + "! I'll be in touch by email 💗");
+      }
+
+      let contactDolly = document.querySelector(".contactDolly");
+      contactDolly.addEventListener("click", Contact);
+    </script>
+  </body>
+</html>
